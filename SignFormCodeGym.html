@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Fomr Code Gym</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">   
 </head>
 <body>
     <div class="form_signup">
@@ -43,7 +43,7 @@
         background-size: cover;
     }
     body {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Raleway', sans-serif;
     }
     .form_signup {
         margin: 25vh auto 10vh auto;
@@ -66,13 +66,18 @@
         width: 99%;
         height: 30px;
         margin: 1% 2% 1% 0%;
-        display: inline-block;
-        border-radius: 5px;
-        border: 1px solid cyan;
+        display: block;
+        border: none;
+        background:none;
+        border-collapse: collapse;
+        border-bottom:1px solid cyan;
         box-sizing: border-box;
     }
+    ::placeholder {
+        color: rgb(132, 210, 255);
+}
     .form_input input:hover {
-        border: 1px solid blue;
+        border-bottom: 1px solid blue;
     }
     .button_form {
         margin: 0px auto 0px auto;
@@ -94,7 +99,10 @@
         color: white;
     }
     input {
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Raleway', sans-serif;
+    }
+    label {
+        margin: 60px auto 5px auto;
     }
 </style>
 </html>
