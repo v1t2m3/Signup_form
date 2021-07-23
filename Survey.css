@@ -172,15 +172,15 @@ select {
 }
 
 .table_agreement table tr:nth-child(odd) {
-      background-color: rgba(252, 228, 200, 0.95);
+      background-color: rgba(214, 206, 196, 0.4);
       height: 30px;
 }
 .table_agreement table tr:nth-child(even) {
-      background-color: rgba(255, 255, 255, 0.5);
+      background-color: rgba(238, 238, 238, 0.4);
       height: 30px;
 }
 .table_agreement table tr:hover {
-      background-color: rgba(211, 211, 211, 0.6);
+      background-color: rgba(225, 193, 255, 0.6);
 }
 
 .row-title {
