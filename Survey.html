@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="Survey.css">
+</head>
+<body>
+    <div class="container">
+        <div class="head_title">
+            <h2>Market Research Survey</h2>
+            <h5>Please take a few moments to complete this satisfication survey.</h5>
+        </div>
+        <hr>
+        <div class="content_survey">
+            <form action="">
+                <div class="age">   
+                    <label for=""> <strong>What is your age range?</strong></label>
+                    <select name="age" id="Age">
+                        <option value="18-24">18-24</option>
+                        <option value="25-34">25-34</option>
+                        <option value="35-50">35-50</option>
+                        <option value="50+">50+</option>
+                    </select>
+                </div>
+                <div class="income">
+                    <label for=""><strong>What is your yearly income range?</strong> </label>
+                    <select name="income" id="Income">
+                        <option value="0-25000">$0-$25000</option>
+                        <option value="25000-50000">$25000-$50000</option>
+                        <option value="50000">$50000-$100000</option>
+                        <option value="+$100000">+$100000</option>
+                    </select>
+                </div>
+                <div class="gender">
+                    <label for=""><strong>Gender Indentity</strong> </label>
+                    <label for=""></label><input type="radio" name="gender" value="Male">  Male</label>
+                    <label for=""> <input type="radio" name="gender" value="Female" checked>Female</label>
+                    <label for=""> <input type="radio" name="gender" value="Nonbinary">Nonbinary</label>
+                    <label for=""> <input type="radio" name="gender" value="Other">Other</label>
+                    <input type="text" value="Decription" placeholder="More decription">
+                </div>
+                <div class="product">
+                    <label for=""><strong>Which of the following products have your purchased in the last 2 months. Please check all that apply.</strong> </label>
+                    <input type="checkbox" name="product" value="product1"> <label for="">Product 1</label>
+                    <input type="checkbox" name="product" value="product2"> <label for="">Product 2</label>
+                    <input type="checkbox" name="product" value="product3" checked> <label for="">Product 3</label>
+                </div>
+                <div class="frequence_">
+                    <label for=""><strong>How often would you use our new product?</strong> </label>
+                    <label for=""><input type="radio" name="frequence" value="daily"> Daily</label>
+                    <label for=""><input type="radio" name="frequence" value="weekly" checked>Weekly</label>
+                    <label for=""><input type="radio" name="frequence" value="monthly">Monthly</label>
+                </div>
+                <div class="payment">
+                    <label for=""><strong>What would you pay for the new product?</strong> </label>
+                    <div class="number">
+                        <label for="">$</label>
+                        <input type="text" placeholder="Dollars">
+                        <label for="">.</label>
+                        <input type="text" placeholder="Cents">
+                    </div>  
+                </div>
+                <div class="textarea">
+                    <label for=""><strong>What features would you like to see in the new product.</strong> </label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="table_agreement">
+                    <label for=""><strong>Please rate your level of agreement whith the fllowing statements.</strong> </label>
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th>Strongly Disagree</th>
+                            <th>Disagree</th>
+                            <th>Agree</th>
+                            <th>Strongly Agree</th>
+                        </tr>
+                        <tr>
+                            <td>Our products price are paired fairly.</td>
+                            <td><input type="radio" name="opiton1" value="1"><label for="">1</label></td>
+                            <td><input type="radio" name="opiton1" value="2"><label for="">2</label></td>
+                            <td><input type="radio" name="opiton1" value="3"><label for="">3</label></td>
+                            <td><input type="radio" name="opiton1" value="4" checked><label for="">4</label></td>
+                        </tr>
+                        <tr>
+                            <td>Our products are high quality.</td>
+                            <td><input type="radio" name="opiton2" value="1"><label for="">1</label></td>
+                            <td><input type="radio" name="opiton2" value="2"><label for="">2</label></td>
+                            <td><input type="radio" name="opiton2" value="3"><label for="">3</label></td>
+                            <td><input type="radio" name="opiton2" value="4" checked><label for="">4</label></td>
+                        </tr>
+                        <tr>
+                            <td>You would recommend our product to a friend or coworker</td>
+                            <td><input type="radio" name="opiton3" value="1"><label for="">1</label></td>
+                            <td><input type="radio" name="opiton3" value="2"><label for="">2</label></td>
+                            <td><input type="radio" name="opiton3" value="3"><label for="">3</label></td>
+                            <td><input type="radio" name="opiton3" value="4" checked><label for="">4</label></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="submit_btn">
+                    <input type="submit" value="Submit">
+                </div>    
+            </form>
+        </div>
+    </div>
+</body>
+</html>
