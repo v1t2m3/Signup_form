@@ -132,12 +132,14 @@ select {
 
 .td-option {
       display: table-cell;
-      justify-items: center;
       width: 100px;
+      text-align: center;
 }
 .table_agreement table td input {
       display: block;
+      margin: auto;
 }
+
 .table_agreement table th {
       background-color: rgb(230, 230, 230);
       height: 30px;
@@ -157,9 +159,7 @@ select {
 .table_agreement table tr:hover {
       background-color: rgb(211, 211, 211);
 }
-.table_agreement table td label {
-      display: block;
-}
+
 .row-title {
       text-align: left;
       border: none;
