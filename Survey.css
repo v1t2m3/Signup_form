@@ -1,68 +1,184 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+}
+body {
+      background-image: url(https://www.xaasjournal.com/wp-content/uploads/2019/05/customer-survey-e1558441982940-696x391.jpg);
 }
 
 .container {
-    margin: 20px auto auto auto;
-    min-width: 30%;
-    max-width: 90%;
-    padding: auto 5px auto 5px;
+      font-family: "Titillium Web", sans-serif;
+      margin: auto;
+      min-width: 30%;
+      max-width: 70%;
+      height: max-content;
+      padding: 15px;
+      background-color: rgba(255, 255, 255, 0.85);
 }
-.container hr {
-    width: 100%;
+.head_title {
+      display: flex-box;
+      text-align: center;
+}
+.head_title h2 {
+      display: block;
+      color: rgb(83, 83, 83);
+}
+.head_title h5 {
+      display: block;
+      color: rgb(83, 83, 83);
+}
+hr {
+      border-style: dashed;
 }
 .content_survey {
-    display: block;
-    align-content:flex-start;
+      margin: auto 30px auto 30px;
+}
+textarea {
+      font-family: "Titillium Web", sans-serif;
+      border-radius: 5px;
+      width: 25%;
+}
+input,
+select {
+      font-family: "Titillium Web", sans-serif;
+      font-size: 16px;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid gray;
+      background: none;
+}
+.container hr {
+      width: 100%;
+}
+.content_survey {
+      display: block;
+      align-content: flex-start;
 }
 .age {
-    display: block;
-    margin: 10px auto 10px auto;
+      display: block;
+      margin: 10px auto 10px auto;
 }
 .age label {
-
 }
 .age select {
-    display: block;
-    width: 25%;
+      display: block;
+      width: 25%;
+      height: 35px;
 }
 .income {
-    margin: 10px auto 10px auto;
+      margin: 10px auto 10px auto;
 }
 .income select {
-    display: block;
-    width: 25%;
+      display: block;
+      width: 25%;
+      height: 35px;
 }
 .gender {
-    margin: 10px auto 10px auto;
+      margin: 10px auto 10px auto;
 }
 .gender label {
-    display: block;
+      display: block;
 }
-.gender input {
-    display: block;
-    width: 25%;
+.gender input[type="radio"] {
+      min-width: 20px;
+}
+.gender input[type="text"] {
+      width: 25%;
+      height: 35px;
 }
 .product {
-    margin: 10px auto 10px auto;
+      margin: 10px auto 10px auto;
 }
 .product input {
-    display: block;
+      min-width: 20px;
+}
+.product label {
+      display: block;
 }
 .frequence_ {
-    margin: 10px auto 10px auto;
+      margin: 10px auto 10px auto;
+}
+.frequence_ input {
+      min-width: 20px;
 }
 .frequence_ label {
-    display: block;
+      display: block;
 }
 .payment {
-    margin: 10px auto 10px auto;
+      margin: 10px auto 10px auto;
 }
 .number {
-    display: block;
+      display: block;
 }
 .number input {
-    width: 12%;
+      width: 12%;
+}
+.textarea_ {
+      margin: 10px auto 10px auto;
+}
+.textarea_ textarea {
+      display: block;
+}
+.table_agreement {
+      margin: 10px auto 10px auto;
+}
+.table_agreement table {
+      border-collapse: collapse;
+      text-align: center;
+      border: none;
+      max-width: 1000px;
+}
+
+.td-option {
+      display: table-cell;
+      justify-items: center;
+      width: 100px;
+}
+.table_agreement table td input {
+      display: block;
+}
+.table_agreement table th {
+      background-color: rgb(230, 230, 230);
+      height: 30px;
+}
+.table_agreement table td {
+      border: none;
+}
+
+.table_agreement table tr:nth-child(odd) {
+      background-color: rgb(255, 242, 226);
+      height: 30px;
+}
+.table_agreement table tr:nth-child(even) {
+      background-color: white;
+      height: 30px;
+}
+.table_agreement table tr:hover {
+      background-color: rgb(211, 211, 211);
+}
+.table_agreement table td label {
+      display: block;
+}
+.row-title {
+      text-align: left;
+      border: none;
+      height: 60px;
+}
+.submit_btn {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: start;
+}
+.submit_btn input {
+      display: block;
+      height: 35px;
+      min-width: 150px;
+      border-radius: 5px;
+      border: none;
+      background-color: rgb(214, 206, 196);
+}
+.submit_btn input:hover {
+      background-color: rgb(235, 216, 253);
 }
