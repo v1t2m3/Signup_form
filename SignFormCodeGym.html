@@ -16,11 +16,11 @@
                 <legend> <strong>Sign Up Form</strong></legend>
                 <div class="form_input">
                     <label for="">Họ và tên:</label> <br>
-                    <input type="text" name="name" id="Name" placeholder="Fullname"> <br>
+                    <input type="text" name="name" id="Name" placeholder="Fullname" autocomplete="off"> <br>
                     <label for="">Email:</label> <br>
-                    <input type="text" name="email" id="Email" placeholder="Email adress"> <br>
+                    <input type="text" name="email" id="Email" placeholder="Email adress" autocomplete="off"> <br>
                     <label for="">Số điện thoại:</label> <br>
-                    <input type="text" name="phone" id="Phone" placeholder="Phone Number"> <br>
+                    <input type="text" name="phone" id="Phone" placeholder="Phone Number" autocomplete="off"> <br>
                 </div>
                 <div class="form_option">
                     <label for="">Giới tính:</label> <br>
@@ -69,9 +69,12 @@
         display: block;
         border: none;
         background:none;
-        border-collapse: collapse;
+        outline: none;
         border-bottom:1px solid cyan;
         box-sizing: border-box;
+        color: cyan;
+        font-size: 14px;
+        transition: 0.5s ease;
     }
     ::placeholder {
         color: rgb(132, 210, 255);
@@ -86,17 +89,20 @@
     }
     .button_form input{
         margin: 0px auto 0px auto;
-        height: 25px;
+        height: 35px;
         width: 30%;
         border-radius: 5px;
-        border: 1px solid cyan;
+        border:none;
         box-sizing: border-box;
-        background-image: linear-gradient(to bottom right, blue, blueviolet);
+        background-image: linear-gradient(to bottom right, blue, cyan);
         color: white;
+        transition: 0.5s ease;
+        font-size: 14px;
     }
     .button_form input:hover{
-        background-image: linear-gradient(to bottom right, rgb(0, 0, 165), rgb(66, 0, 128));
+        background-image: linear-gradient(to bottom right, cyan,blue);
         color: white;
+        font-size: 16px;
     }
     input {
         font-family: 'Raleway', sans-serif;
