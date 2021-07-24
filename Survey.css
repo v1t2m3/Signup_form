@@ -3,8 +3,13 @@
       padding: 0px;
       box-sizing: border-box;
 }
-body {
-      background-image: url(https://www.xaasjournal.com/wp-content/uploads/2019/05/customer-survey-e1558441982940-696x391.jpg);
+html {
+      background: url(https://wallpapercave.com/wp/wp3950063.jpg) no-repeat
+            center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
 }
 
 .container {
@@ -39,6 +44,7 @@ textarea {
       font-size: 16px;
       border-radius: 5px;
       width: 25%;
+      background: none;
 }
 input,
 select {
@@ -139,6 +145,8 @@ select {
 }
 .textarea_ textarea {
       display: block;
+      width: 50%;
+      min-width: 400px;
 }
 .table_agreement {
       margin: 10px auto 10px auto;
@@ -150,7 +158,8 @@ select {
       border-collapse: collapse;
       text-align: center;
       border: none;
-      max-width: 1000px;
+      width: 50%;
+      min-width: 400px;
 }
 
 .td-option {
@@ -164,7 +173,7 @@ select {
 }
 
 .table_agreement table th {
-      background-color: rgba(230, 230, 230, 0.8);
+      background-color: rgba(194, 194, 194, 0.8);
       height: 30px;
 }
 .table_agreement table td {
@@ -172,11 +181,11 @@ select {
 }
 
 .table_agreement table tr:nth-child(odd) {
-      background-color: rgba(214, 206, 196, 0.4);
+      background-color: rgba(160, 149, 135, 0.4);
       height: 30px;
 }
 .table_agreement table tr:nth-child(even) {
-      background-color: rgba(238, 238, 238, 0.4);
+      background-color: rgba(194, 194, 194, 0.4);
       height: 30px;
 }
 .table_agreement table tr:hover {
